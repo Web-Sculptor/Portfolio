@@ -117,28 +117,6 @@ main{
     font-size: 1.2vw;
 }
 
-@media ( max-width: 700px){
-    .skill>i{
-        display: none;
-    }
-
-    .skill>h3{
-        padding: 6vw 2vw 3vw 2vw;
-    }
-    .first-page{
-        height: 40vh;
-    }
-    .connect{
-        width: 100vw;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .connect>a{
-        margin-bottom: 5vw;
-    }
-
-}
-
 .connect{
     display: flex;
     justify-content: space-evenly;
@@ -185,4 +163,60 @@ main{
     color: #F2F7F6;
     padding: 1vw;
     font-size: 1.2vw;
+}
+
+@media ( min-width:500px) and ( max-width: 700px){
+    .skill>i{
+        display: none;
+    }
+
+    .skill>h3{
+        padding: 6vw 2vw 3vw 2vw;
+    }
+}
+
+@media ( min-width:400px) and ( max-width: 500px){
+    .services-skill{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .skill{
+        width: 30vw;
+        height: 30vw;
+    }
+    
+    .skill>h3{
+        padding: 6vw 2vw 3vw 2vw;
+    }
+}
+
+
+@media ( max-width: 400px){
+    .connect{
+        flex-direction: column;
+        align-items: center;
+    }
+    .connect>a{
+        margin-bottom: 5vw;
+    }
+    .services-skill{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill{
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .skill>h3{
+        padding: 10vw 2vw 5vw 2vw;
+        font-size: 2vw;
+    }
+    
+    .skill>p{
+        font-size: 2vw;
+    }
 }
