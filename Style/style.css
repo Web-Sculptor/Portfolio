@@ -125,6 +125,18 @@ main{
     .skill>h3{
         padding: 6vw 2vw 3vw 2vw;
     }
+    .first-page{
+        height: 40vh;
+    }
+    .connect{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .connect>a{
+        margin-bottom: 5vw;
+    }
+
 }
 
 .connect{
