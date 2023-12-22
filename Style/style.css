@@ -42,6 +42,14 @@ div.nav{
     font-size: 1.2vw;
 }
 
+.nav>a:hover{
+    color: #f2f7f682;
+}
+
+.nav>a:focus{
+    color: #ff4b57;
+}
+
 /* navigation bar */
 
 main{
@@ -70,18 +78,18 @@ main{
 
 /* first-page */
 
-.services-line1{
+.services-line1, .projects-heading{
     color: #F2F7F6;
     font-size: 1.5vw;
-    padding: 0vw 0vw 2vw 10vw;
+    padding: 5vw 0vw 2vw 10vw;
 }
 
-.services-line2, .connect-with-me{
+.services-line2, .connect-with-me, .project-1{
     color: #ff4b57;
     font-family: Helvetica, sans-serif;
     font-weight: 700;
     font-size: 3vw;
-    padding: 0vw 0vw 3vw 10vw;
+    padding: 3vw 0vw 5vw 10vw;
 }
 
 .services-skill{
