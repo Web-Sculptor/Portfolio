@@ -1,3 +1,3 @@
 # Portfolio
 <br>
-This is an intial project of my portfolio.
+This is my second project as my portfolio.
